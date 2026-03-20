@@ -49,13 +49,13 @@
         input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; accent-color: #dd3333; margin: 0; }
         
         .btn-row { display: flex; gap: 12px; margin-top: 10px; flex-wrap: wrap; justify-content: center; }
-
+        
         .player-card { display: flex; flex-direction: column; gap: 8px; width: 230px; box-sizing: border-box; background: #1a1a1a; padding: 15px 20px; border-radius: 12px; border: 2px solid #333; box-shadow: inset 0 0 10px rgba(0,0,0,0.5), 0 4px 8px rgba(0,0,0,0.3); }
         .player-card h2 { margin-top: 0; margin-bottom: 5px; font-size: 22px; border-bottom: 2px solid #333; padding-bottom: 6px; text-shadow: 1px 1px 2px black; }
         .player-card label { font-size: 15px; color: #ccc; }
         .player-card input[type="text"] { width: 110px; padding: 6px; font-size: 14px; background: #111; border: 2px solid #555; }
         .player-card .rot-label { border-top: 2px solid #333; padding-top: 12px; margin-top: 4px; color: white; font-weight: bold; }
-
+        
         .keyboard-wrapper { width: 100%; display: flex; flex-direction: column; align-items: center; margin-top: 15px; }
         #keyboardRenderArea { display: flex; justify-content: center; align-items: flex-start; gap: 20px; background: #1a1a1a; padding: 15px; border-radius: 12px; border: 3px solid #444; box-shadow: inset 0 0 20px rgba(0,0,0,0.8); transform: scale(0.85); transform-origin: top center; margin-bottom: -35px; }
         .keyboard-section { display: flex; flex-direction: column; gap: 0; }
@@ -641,7 +641,7 @@ function generateKeyboardMap() {
             {code: 'KeyE', label: 'E'}, {code: 'KeyR', label: 'R'}, {code: 'KeyT', label: 'T'}, 
             {code: 'KeyY', label: 'Y'}, {code: 'KeyU', label: 'U'}, {code: 'KeyI', label: 'I'}, 
             {code: 'KeyO', label: 'O'}, {code: 'KeyP', label: 'P'}, {code: 'BracketLeft', label: 'è'}, 
-            {code: 'BracketRight', label: '+'}, {code: 'Enter', label: 'Invio', cls: 'k-enter-top'}
+            {code: 'BracketRight', label: '+'}, {code: 'Enter', label: 'Enter', cls: 'k-enter-top'}
         ],
         [
             {code: 'CapsLock', label: 'Bloc\nMaiusc', cls: 'k-caps'}, {code: 'KeyA', label: 'A'}, {code: 'KeyS', label: 'S'}, 
@@ -659,7 +659,7 @@ function generateKeyboardMap() {
         ],
         [
             {code: 'ControlLeft', label: 'Ctrl', cls: 'k-ctrl'}, {code: 'MetaLeft', label: 'Win', cls: 'k-mod'}, 
-            {code: 'AltLeft', label: 'Alt', cls: 'k-mod'}, {code: 'Space', label: 'Spazio', cls: 'k-space'}, 
+            {code: 'AltLeft', label: 'Alt', cls: 'k-mod'}, {code: 'Space', label: 'Space', cls: 'k-space'}, 
             {code: 'AltRight', label: 'Alt Gr', cls: 'k-mod'}, {code: 'MetaRight', label: 'Win', cls: 'k-mod'}, 
             {code: 'ContextMenu', label: 'Menu', cls: 'k-mod'}, {code: 'ControlRight', label: 'Ctrl', cls: 'k-ctrl'}
         ]
